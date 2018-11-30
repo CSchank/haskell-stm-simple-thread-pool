@@ -28,7 +28,7 @@ library:
   source-dirs: src
 
 executables:
-  haskell-stm-simple-thread-pool-exe:
+  pool:
     main:                Main.hs
     source-dirs:         app
     ghc-options:
@@ -39,7 +39,7 @@ executables:
     - haskell-stm-simple-thread-pool
 
 tests:
-  haskell-stm-simple-thread-pool-test:
+  pool-test:
     main:                Spec.hs
     source-dirs:         test
     ghc-options:
